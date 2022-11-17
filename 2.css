@@ -1,42 +1,49 @@
-.ccsticky-nav {
-    width: 100%;
-    height: 60px; 
-    position: fixed; 
-    top: 0;
-    background: #139ed8;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+    background-color: aqua;
 }
-    
-    .ccsticky-nav ul {
-    padding: 20px;
-    margin: 0 auto;
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
     list-style: none;
-    text-align: center;
+    margin-right: 15%;
+    background-color: black;
+
+
 }
-    
-    .ccsticky-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-    
-    .ccsticky-nav ul li a {
-    padding: 10px 0;
-    color: #fff;
-    font-size: 1rem;
-    text-decoration: none;
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
     font-weight: bold;
-    transition: all 0.2s ease;
+
 }
-    
-    .ccsticky-nav ul li a:hover {
-    color: #34495E;
+a{
+    margin: 15px;
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-    
-    section {
-    width: 100%;
-    padding: 50px;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-    height: 1024px;
-    text-align: center;
-    margin-top: 60px;
+
+.banner-area{
+    position: relative;
+    justify-content: ;
+    padding-top: 5%;
+    background-color: aqua;
+
+
 }
